@@ -1,0 +1,22 @@
+body {
+    background-color: transparent !important;
+    height: 3000px;
+    display: block; /* Chỉnh sửa để không sử dụng display: contents */
+    align-items: center; /* Không cần thiết khi không sử dụng flex */
+    justify-content: center; /* Không cần thiết khi không sử dụng flex */
+}
+
+.carousel-item {
+    height: 100vh; /* Chiều cao tùy chỉnh */
+    text-align: center; /* Căn giữa nội dung theo chiều ngang */
+    position: relative; /* Để dễ dàng căn giữa các ảnh */
+}
+
+.carousel-item img {
+   
+    object-fit: contain; /* Giữ nguyên tỷ lệ ảnh */
+    position: absolute; /* Đặt ảnh tuyệt đối */
+    top: 50%; /* Đẩy ảnh từ trên xuống giữa */
+    left: 50%; /* Đẩy ảnh từ bên trái sang giữa */
+    transform: translate(-50%, -50%); /* Dịch chuyển ảnh về giữa */
+}

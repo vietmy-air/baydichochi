@@ -1,0 +1,420 @@
+body {
+    background-image: url('https://thatnhucuocsong.com.vn/wp-content/uploads/2022/02/anh-may-day-dac-nhu-chiec-chan-bong-800x600.jpg');
+    background-size: cover; /* Đảm bảo hình ảnh bao phủ toàn bộ màn hình */
+    background-position: center; /* Căn giữa hình ảnh nền */
+    background-repeat: no-repeat; /* Ngăn hình ảnh lặp lại */
+    background-attachment: fixed; /* Giữ hình nền cố định khi cuộn trang */
+}
+.item{
+    border-radius: 20px;
+}
+
+
+body {
+    font-size: 64px; /* Kích thước chữ lớn hơn */
+    text-align: center; /* Căn giữa */
+    margin: 0; /* Không có khoảng cách từ hai bên */
+    
+}
+.container {
+    width: 4135px; /* Chiều rộng khung */
+    height: 160px; /* Chiều cao khung */
+    background: #E6E6FA; /* Màu nền */
+    display: flex; /* Sử dụng flexbox để căn giữa */
+    justify-content: space-between; /* Cách đều giữa các phần tử */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    border: 2px solid #faf5f5; /* Đường viền khung */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Đổ bóng cho khung */
+    margin: -1px auto; /* Căn giữa khung trong trang */
+    padding: 0 20px; /* Khoảng cách bên trong khung */
+    border-top-left-radius: 20px; /* Bo góc trái trên */
+    border-top-right-radius: 20px; /* Bo góc phải trên */
+}
+.item {
+    margin: 0 50px; /* Khoảng cách giữa các chữ */
+}
+.item
+{
+    border-style: solid;
+    border-width: 1px;
+    height: 110px;
+    background-color: azure;
+    width: 1100px;
+  }
+.itemm{
+    color: 26936D;
+    border-radius: 20px;
+}
+.buttonn{
+    width: 555px;
+    font-size: 56px;
+    color: #151414;
+    border-radius: 20px;}
+  .khungdienthongtin {
+    width: 4048px;
+    height: 1277px;
+    margin: 20px auto; 
+    margin: -20px auto;
+    border-style: solid;
+    border-width: 71px;
+    border-color: #CAE7C3 ; 
+}
+
+.chucnang {
+    flex: 1;
+    justify-content: space-between;
+    margin: 0 300px;
+    color: #E0A307E3;
+    
+    
+}
+.chucnangg{
+    float:left ;
+    color: #E0A307E3;
+}
+
+
+input {
+    width: 100%; /* Căn chỉnh input theo chiều rộng toàn trang nếu muốn */
+    padding: 10px;
+    font-size: 64px; /* Kích thước chữ trong ô nhập */
+    
+}
+
+input::placeholder {
+    font-size: 60px; /* Kích thước chữ của placeholder */
+    color: #999; /* Màu chữ placeholder */
+}
+
+label {
+    font-size: 64px; /* Kích thước chữ của nhãn */
+    font-weight: bold;
+    
+}
+.form-container {
+    display: flex; /* Sử dụng flexbox để căn hai form theo hàng ngang */
+    gap: 300px; /* Khoảng cách giữa hai form */
+    margin: 100px;
+    border-radius: 30px; 
+    
+}
+
+select {
+    width: 100%; /* Chiều rộng của select */
+    height: 50%;
+    padding: 100px; /* Padding cho select */
+    font-size: 64px; /* Kích thước chữ trong dropdown */
+}
+button{
+    width: 300px;
+    height: 110px;
+    font-size: 45px;
+    border-radius: 30px;
+}
+
+.nutthem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px; /* Điều chỉnh khoảng cách giữa các phần tử */
+    width: 100%; /* Đảm bảo chiều rộng không vượt quá khung cha */
+    max-width: 4048px; /* Chiều rộng tối đa là 4048px */
+    margin: 30px auto; /* Canh giữa khung */
+    height: 250px;
+    font-size: 84px;
+}
+
+.buttona {
+    width: 100%; /* Đảm bảo nút chiếm toàn bộ chiều rộng của khung */
+    max-width: 2000px; /* Giới hạn chiều rộng tối đa của nút */
+    height: 150px;
+    font-size: 45px;
+    background-color: EAF5EF; /* Thêm màu nền nếu cần */
+}
+
+.ngaydive {
+    display: flex;
+    justify-content: flex-start; /* Căn lề trái các phần tử */
+    align-items: flex-start; /* Căn lề phía trên */
+    gap: 150px; /* Khoảng cách giữa các form và button */
+    margin: 30px 100; /* Giảm margin bên trái và bên phải */
+    width: 2000px; /* Chiều rộng tổng thể của phần tử */ 
+    border-radius: 30px;
+}
+
+input[type="text"] {
+    border-radius: 30px; /* Điều chỉnh giá trị để bo góc nhiều hay ít */
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+
+
+.buttonh {
+    margin: -150px 100px 0 auto; /* Đẩy nút lên trên */
+    width: 1500px;
+    height: 150px; /* Chiều cao nút */
+    display: block; /* Đảm bảo nút là block để sử dụng margin */
+    font-size: 64px;
+    background-color: FFF7ED;
+}
+
+.background {
+    width: 4190px;
+    height: 1290px;
+    position: absolute;
+    left: 50%; /* Căn giữa theo chiều ngang */
+    margin: 600px 100px 0 auto;
+    transform: translate(-50%, -50%); /* Dịch chuyển để căn giữa */
+    gap: 60px;
+    background-color: #CAE7C3;
+    /* Màu nền */
+    display: flex; /* Để sử dụng align-items */
+    align-items: center; /* Căn giữa nội dung bên trong nếu có */
+    
+}
+
+.background img {
+    width: 70%; /* Chiếm toàn bộ chiều rộng khung */
+    height: 70%; /* Chiếm toàn bộ chiều cao khung */
+    object-fit: cover; /* Giữ tỷ lệ và cắt bớt nếu cần */
+    margin: 50; /* Không cần khoảng cách giữa các ảnh */
+}
+
+.section {
+    width: 100%; /* Sử dụng 100% để phần tử chiếm toàn bộ chiều rộng cha */
+    max-width: 4188px; /* Giới hạn chiều rộng tối đa để tránh quá rộng */
+    height: 4100px; /* Thêm đơn vị px */
+    background-color: #ffffff;
+    margin: 600px auto; /* Căn giữa phần tử */
+    padding: 20px; /* Thêm padding nếu cần */
+    box-sizing: border-box; /* Đảm bảo padding không làm tăng kích thước phần tử */
+   
+}
+
+.a{
+    font-size: 64px;
+    text-align: center;
+    position: relative;
+    top: -3900px; /* Giá trị âm sẽ đẩy phần tử lên */
+    color:#E0A307E3;
+}
+.aa{
+    font-size: 64px;
+    text-align: center;
+    position: relative;
+    top: -3900px; 
+    color: #151414;
+}
+
+.containerr {
+    display: flex;
+    flex-direction: column; /* Xếp các hàng theo chiều dọc */
+    gap: 50px; /* Khoảng cách giữa các hàng */
+    align-items: center; /* Căn giữa các hàng */
+}
+
+.anhh {
+    display: flex;
+    gap: 250px; /* Khoảng cách giữa các ảnh */
+}
+
+.anhh img {
+    width: 700px; /* Kích thước ảnh */
+    height: auto; /* Giữ nguyên tỷ lệ ảnh */
+    border-radius: 200px; /* Bo tròn góc ảnh */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng ảnh */
+    transform: translateY(-3800px); /* Đẩy ảnh lên 300px */
+   
+}
+
+.caption {
+    margin-top: -3700px; /* Điều chỉnh vị trí caption */
+    font-size: 44px;
+    color: #1c1414; /* Màu chữ */
+}
+.nutcauhoi{
+    margin-top: -3700px; 
+    border-radius: 60px;
+   width: 1000px;
+   height: 200px;
+   font-size: 64px;
+  color:#ffffff;
+  background-color: cornflowerblue;
+ 
+}
+
+.nutcauhoi1{
+    margin: 150px;
+    width:800px;
+    height: 400px;
+    background-color: #ffffff;
+}
+
+.duongthangkk {
+    display: block; /* Đảm bảo nút hiển thị như một khối */
+    width: 100%; /* Chiều rộng của nút */
+    height: 16px; /* Độ dày của đường thẳng */
+    background-color: #999; /* Màu sắc của đường thẳng */
+    margin: 20px 0; /* Khoảng cách phía trên và dưới */
+}
+
+
+.anhnhataitro {
+    width: 100%; /* Sử dụng 100% để phần tử chiếm toàn bộ chiều rộng cha */
+    max-width: 4188px; /* Giới hạn chiều rộng tối đa để tránh quá rộng */
+    height: 1500px; /* Thêm đơn vị px */
+    background-color: #ffffff;
+    margin: 600px auto; /* Căn giữa phần tử */
+    padding: 20px; /* Thêm padding nếu cần */
+    box-sizing: border-box; /* Đảm bảo padding không làm tăng kích thước phần tử */
+   margin-top: -900px;
+
+}
+
+
+.cachangmaybay img {
+    width: 1000px; /* Kích thước ảnh lớn hơn */
+    height: auto; /* Giữ tỷ lệ khung hình */
+    border-radius: 10px; /* Bo góc cho ảnh */
+    margin: 10px;
+    gap: 250px; 
+    height: auto; /* Giữ nguyên tỷ lệ ảnh */
+    width: 450px; /* Điều chỉnh kích thước ảnh theo nhu cầu */
+    margin: 10px;
+}
+.anhmaybay {
+    display: flex; /* Sử dụng Flexbox để sắp xếp các hình ảnh */
+    flex-wrap: wrap; /* Cho phép hình ảnh xuống hàng khi không đủ không gian */
+    justify-content: center; /* Căn giữa các hình ảnh */
+    margin: 200px 0; /* Khoảng cách giữa các hàng */
+}
+.anhmaybay img {
+    width: 450px; /* Đặt chiều rộng của các hình ảnh */
+    height: auto; /* Giữ tỷ lệ cho hình ảnh */
+    margin: 5px; /* Khoảng cách giữa các hình ảnh */
+    object-fit: contain; 
+}
+
+.diachi{
+    width: 100%; /* Sử dụng 100% để phần tử chiếm toàn bộ chiều rộng cha */
+    max-width: 4188px; /* Giới hạn chiều rộng tối đa để tránh quá rộng */
+    height: 900px; /* Thêm đơn vị px */
+   background-color:azure;
+    margin: 600px auto; /* Căn giữa phần tử */
+    padding: 20px; /* Thêm padding nếu cần */
+    box-sizing: border-box; /* Đảm bảo padding không làm tăng kích thước phần tử */
+   margin-top: -600px;
+}
+.diachi {
+    display: flex;
+    justify-content: space-between; /* Chia đều khoảng cách giữa các chi nhánh */
+    flex-wrap: wrap; /* Cho phép các phần tử xuống hàng nếu không đủ chỗ */
+}
+
+.chinhanh {
+    margin: 90px 0;
+    width: 30%; /* Đặt chiều rộng cho mỗi chi nhánh để chúng có thể nằm ngang */
+    padding: 10px;
+    box-sizing: border-box; /* Đảm bảo padding không làm thay đổi kích thước phần tử */
+
+}
+
+@media (max-width: 768px) {
+    .chinhanh {
+        width: 100%; /* Trên màn hình nhỏ, chi nhánh sẽ hiển thị theo cột */
+    }
+}
+.avatar{
+    border-radius: 30px;
+}
+.text{ /*chỉnh các nút khời hành , điểm đến */
+border-radius: 30px;
+}
+
+.lienhe{
+        width: 100%; /* Sử dụng 100% để phần tử chiếm toàn bộ chiều rộng cha */
+        max-width: 4188px; /* Giới hạn chiều rộng tối đa để tránh quá rộng */
+        height: 1000px; 
+  
+        margin: 600px auto; /* Căn giữa phần tử */
+        padding: 20px; /* Thêm padding nếu cần */
+        box-sizing: border-box; /* Đảm bảo padding không làm tăng kích thước phần tử */
+       margin-top: -600px;
+    
+}
+
+.lienhe {
+    display: flex; /* Sử dụng Flexbox */
+    flex-wrap: wrap; /* Cho phép các phần tử xuống dòng khi không đủ chỗ */
+    justify-content: space-between; /* Căn chỉnh các phần tử với khoảng cách đều */
+}
+
+.dichvu {
+    flex: 1; /* Mỗi phần tử chiếm 1 phần không gian */
+    min-width: 250px; /* Đặt chiều rộng tối thiểu để các phần tử không quá nhỏ */
+    margin: 10px; /* Khoảng cách giữa các phần tử */
+    padding: 10px; /* Padding cho mỗi phần tử */
+    border: 1px solid #ccc; /* Viền xung quanh mỗi phần tử (tùy chọn) */
+    border-radius: 0px; /* Bo góc cho viền (tùy chọn) */
+}
+.ketnoi{
+    width: 100%; /* Sử dụng 100% để phần tử chiếm toàn bộ chiều rộng cha */
+    max-width: 4188px; /* Giới hạn chiều rộng tối đa để tránh quá rộng */
+    height: 1px; 
+    
+    margin: 350px auto; /* Căn giữa phần tử */
+    padding: 20px; /* Thêm padding nếu cần */
+    box-sizing: border-box; /* Đảm bảo padding không làm tăng kích thước phần tử */
+   margin-top: -700px;
+
+}
+.ketnoi {
+  top:-4px; /* Thêm khoảng cách phía trên */
+    font-size: 150px; /* Làm cho văn bản to lên */
+}
+
+.ketnoi b {
+    font-size: 94px; /* Làm cho tiêu đề lớn hơn */
+    color: #940966; /* Thay đổi màu tiêu đề */
+}
+
+.anhh {
+    cursor: pointer; /* Thay đổi con trỏ khi di chuột qua */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển màu */
+    padding: 10px; /* Khoảng cách xung quanh hình ảnh */
+}
+
+.anhh:hover {
+    background-color: rgba(255, 255, 255, 0.8); /* Màu nền khi hover */
+}
+
+.anhh.active {
+    background-color: rgba(0, 123, 255, 0.5); /* Màu nền khi bấm */
+}
+.box app-links{
+    margin-top: -1900px;
+}
+
+.chucnang:hover {
+    color: #FF4500; /* Đổi màu khi hover */
+    transform: scale(1.1); /* Phóng to khi hover */
+}
+.buttona:hover {
+    background-color: #FADADD; /* Đổi màu nền khi hover */
+    transform: translateY(-3px); /* Đẩy nút lên khi hover */
+}
+
+.buttona:active {
+    transform: translateY(1px); /* Đẩy nút xuống khi nhấn */
+    background-color: #FADADD; /* Đổi màu nền khi nhấn */
+}
+.ketnoi i:hover {
+    transform: scale(1.2); /* Phóng to biểu tượng khi hover */
+    color: #FF9800; /* Đổi màu khi hover (bạn có thể thay đổi màu tùy ý) */
+}
+.nutcauhoi:hover, .nutcauhoi1:hover {
+    background-color: #90EE90;/* Màu nền khi hover */
+    transform: scale(1.05); /* Phóng to nút */
+}
+
